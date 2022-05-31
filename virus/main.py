@@ -10,7 +10,7 @@ import os
 
 pygame.init()
 pygame.mixer.init()
-errorsound = pygame.mixer.Sound('audio/error.wav')
+errorsound = pygame.mixer.Sound('audio/error.mp3')
 
 
 
